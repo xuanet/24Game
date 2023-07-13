@@ -1,0 +1,6 @@
+module MathExpression {
+  umbrella header "MathExpression-umbrella.h"
+
+  export *
+  module * { export * }
+}

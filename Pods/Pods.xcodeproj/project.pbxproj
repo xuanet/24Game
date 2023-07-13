@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1180ECCA4EDA68AB11CE0044FB536B23 /* MathExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF2922454D7E21FE354B5036FE636F3 /* MathExpression.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4F38A4B938C3FBD33283469AC9617C83 /* Pods-24Game-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 936B6C5DB2D5523F63D50C9B516F4FB3 /* Pods-24Game-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B43EE07BE52C4005287DD2DF75DA816 /* FloatingPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1428F688D079F5996A7ABD9C391E1189 /* FloatingPoint+Extensions.swift */; };
+		5BDE83ED59DEDBCFE2C3BE69483F3FA4 /* Formatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBEE603282892BE139F9546A58700A1 /* Formatter+Extensions.swift */; };
+		80D05BF174716E11B8D33DE0373C8C85 /* MathFormula.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA480DF1857669DB380E40FD3553DF /* MathFormula.swift */; };
+		932DFC96BFE4C63226E54BABDC8E5505 /* Pods-24Game-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A0BE1DAADC15481706355A8D13545B /* Pods-24Game-dummy.m */; };
+		A1FCC2FB4D9B812073ACB6129F3A0189 /* MathBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7083CFD26B0911DDFC5EAD89FF9A3C /* MathBrackets.swift */; };
+		BA4EE9C70AD8A7D9DA8F313B0D1EA057 /* MathExpression-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 592C29CC167C3056EE3AE0CDFE2BE4CC /* MathExpression-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D33F2CF6D6212F6ECBD75EB2DA48602D /* MathExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B04496D53B04BD4A377D1E5D8C330 /* MathExpression.swift */; };
+		D363AE2F4982857D9DF04ABEE8BBA0EF /* MathExpression-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C7D5198E9A75B9154A428EDA6D19F5 /* MathExpression-dummy.m */; };
+		D8AD736F45CFA967A6AF4449E6B3D828 /* MathOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED4BC8FE2420945A7A23E9F0ACBD72 /* MathOperator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBE01077D2E73415C8089FF9885C049A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CD3555C41649838494598493CDE1BE8;
+			remoteInfo = MathExpression;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B59D7D3F5E55156E04AF24A68AC4E38 /* MathExpression.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MathExpression.debug.xcconfig; sourceTree = "<group>"; };
+		0BF2922454D7E21FE354B5036FE636F3 /* MathExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MathExpression.h; path = MathExpression/MathExpression.h; sourceTree = "<group>"; };
+		1428F688D079F5996A7ABD9C391E1189 /* FloatingPoint+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Extensions.swift"; path = "MathExpression/Source/Extensions/FloatingPoint+Extensions.swift"; sourceTree = "<group>"; };
+		1BFA480DF1857669DB380E40FD3553DF /* MathFormula.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathFormula.swift; path = MathExpression/Source/Parser/MathFormula.swift; sourceTree = "<group>"; };
+		2591D92E2A30AA0CA21FC8A2F9D8F9EA /* Pods-24Game */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-24Game"; path = "libPods-24Game.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592C29CC167C3056EE3AE0CDFE2BE4CC /* MathExpression-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MathExpression-umbrella.h"; sourceTree = "<group>"; };
+		7905EFA5BCB6067075F0ED692FFD104E /* MathExpression.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MathExpression.release.xcconfig; sourceTree = "<group>"; };
+		7AA8475CCC21F1850552B46A1F9707E9 /* Pods-24Game-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-24Game-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FAF79BE816DD260E5F17CA43893444B /* Pods-24Game-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-24Game-acknowledgements.plist"; sourceTree = "<group>"; };
+		86A0BE1DAADC15481706355A8D13545B /* Pods-24Game-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-24Game-dummy.m"; sourceTree = "<group>"; };
+		8A25A90A284C55E59CA2725A8191BB73 /* MathExpression.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MathExpression.modulemap; sourceTree = "<group>"; };
+		8FD520FF311AAFD71C3A82AABA8D509B /* MathExpression-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MathExpression-prefix.pch"; sourceTree = "<group>"; };
+		936B6C5DB2D5523F63D50C9B516F4FB3 /* Pods-24Game-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-24Game-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A573FFEB3AD9F16E77B6D6E51D280ADE /* MathExpression */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = MathExpression; path = libMathExpression.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C7D5198E9A75B9154A428EDA6D19F5 /* MathExpression-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MathExpression-dummy.m"; sourceTree = "<group>"; };
+		C2208D425A802A5018161EEADA2539BE /* Pods-24Game.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-24Game.release.xcconfig"; sourceTree = "<group>"; };
+		CAF011C7C48BD45EDEE70BD7CABA8610 /* Pods-24Game.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-24Game.modulemap"; sourceTree = "<group>"; };
+		CF7083CFD26B0911DDFC5EAD89FF9A3C /* MathBrackets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathBrackets.swift; path = MathExpression/Source/Models/MathBrackets.swift; sourceTree = "<group>"; };
+		DDBEE603282892BE139F9546A58700A1 /* Formatter+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Formatter+Extensions.swift"; path = "MathExpression/Source/Extensions/Formatter+Extensions.swift"; sourceTree = "<group>"; };
+		EA89E6A48E1E33F7A17174F401EA38AF /* Pods-24Game.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-24Game.debug.xcconfig"; sourceTree = "<group>"; };
+		F75B04496D53B04BD4A377D1E5D8C330 /* MathExpression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathExpression.swift; path = MathExpression/Source/Parser/MathExpression.swift; sourceTree = "<group>"; };
+		FBED4BC8FE2420945A7A23E9F0ACBD72 /* MathOperator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathOperator.swift; path = MathExpression/Source/Models/MathOperator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D7EED5C251D9A32E20C464F8AA02892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AA1000635E5F602A50998CBB71CD23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF588C977A98EAC076D263B6A15DCF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78A9C2EA493FB69DFEE41EEB8EDF4AEC /* MathExpression */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C444DC0C8EC592880368FA0E51482B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2DCEFA5EDFB6313BA35F5CF5373F459 /* Pods-24Game */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2FF8DD74B78148F2A2AE805A9739892B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A25A90A284C55E59CA2725A8191BB73 /* MathExpression.modulemap */,
+				A7C7D5198E9A75B9154A428EDA6D19F5 /* MathExpression-dummy.m */,
+				8FD520FF311AAFD71C3A82AABA8D509B /* MathExpression-prefix.pch */,
+				592C29CC167C3056EE3AE0CDFE2BE4CC /* MathExpression-umbrella.h */,
+				0B59D7D3F5E55156E04AF24A68AC4E38 /* MathExpression.debug.xcconfig */,
+				7905EFA5BCB6067075F0ED692FFD104E /* MathExpression.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MathExpression";
+			sourceTree = "<group>";
+		};
+		78A9C2EA493FB69DFEE41EEB8EDF4AEC /* MathExpression */ = {
+			isa = PBXGroup;
+			children = (
+				1428F688D079F5996A7ABD9C391E1189 /* FloatingPoint+Extensions.swift */,
+				DDBEE603282892BE139F9546A58700A1 /* Formatter+Extensions.swift */,
+				CF7083CFD26B0911DDFC5EAD89FF9A3C /* MathBrackets.swift */,
+				0BF2922454D7E21FE354B5036FE636F3 /* MathExpression.h */,
+				F75B04496D53B04BD4A377D1E5D8C330 /* MathExpression.swift */,
+				1BFA480DF1857669DB380E40FD3553DF /* MathFormula.swift */,
+				FBED4BC8FE2420945A7A23E9F0ACBD72 /* MathOperator.swift */,
+				2FF8DD74B78148F2A2AE805A9739892B /* Support Files */,
+			);
+			name = MathExpression;
+			path = MathExpression;
+			sourceTree = "<group>";
+		};
+		9D6C91CB0D0BAA434685B32A7FCD34BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A573FFEB3AD9F16E77B6D6E51D280ADE /* MathExpression */,
+				2591D92E2A30AA0CA21FC8A2F9D8F9EA /* Pods-24Game */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0AF588C977A98EAC076D263B6A15DCF5 /* Pods */,
+				9D6C91CB0D0BAA434685B32A7FCD34BD /* Products */,
+				1C444DC0C8EC592880368FA0E51482B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2DCEFA5EDFB6313BA35F5CF5373F459 /* Pods-24Game */ = {
+			isa = PBXGroup;
+			children = (
+				CAF011C7C48BD45EDEE70BD7CABA8610 /* Pods-24Game.modulemap */,
+				7AA8475CCC21F1850552B46A1F9707E9 /* Pods-24Game-acknowledgements.markdown */,
+				7FAF79BE816DD260E5F17CA43893444B /* Pods-24Game-acknowledgements.plist */,
+				86A0BE1DAADC15481706355A8D13545B /* Pods-24Game-dummy.m */,
+				936B6C5DB2D5523F63D50C9B516F4FB3 /* Pods-24Game-umbrella.h */,
+				EA89E6A48E1E33F7A17174F401EA38AF /* Pods-24Game.debug.xcconfig */,
+				C2208D425A802A5018161EEADA2539BE /* Pods-24Game.release.xcconfig */,
+			);
+			name = "Pods-24Game";
+			path = "Target Support Files/Pods-24Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E29E446EA23771934C43268018F5E64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1180ECCA4EDA68AB11CE0044FB536B23 /* MathExpression.h in Headers */,
+				BA4EE9C70AD8A7D9DA8F313B0D1EA057 /* MathExpression-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86108D0B07DDB7E25D4A0E16263842C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F38A4B938C3FBD33283469AC9617C83 /* Pods-24Game-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09B9FB1C271FC5BE43BEE02169CE397C /* Pods-24Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51D6A2224C7CCAC20BABE964B1639E3A /* Build configuration list for PBXNativeTarget "Pods-24Game" */;
+			buildPhases = (
+				86108D0B07DDB7E25D4A0E16263842C4 /* Headers */,
+				1DA442282FDED94D79EE36B63ACE8767 /* Sources */,
+				B5AA1000635E5F602A50998CBB71CD23 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A89FD3CCF599176F4E19AF3411C2DB9E /* PBXTargetDependency */,
+			);
+			name = "Pods-24Game";
+			productName = "Pods-24Game";
+			productReference = 2591D92E2A30AA0CA21FC8A2F9D8F9EA /* Pods-24Game */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7CD3555C41649838494598493CDE1BE8 /* MathExpression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A62826CA9EB12ADD456517CA90638A3 /* Build configuration list for PBXNativeTarget "MathExpression" */;
+			buildPhases = (
+				7E29E446EA23771934C43268018F5E64 /* Headers */,
+				61689DFD61B40F489A1304C27C34349B /* Sources */,
+				9D7EED5C251D9A32E20C464F8AA02892 /* Frameworks */,
+				4AE74401CDBEB9EDACD6A71499FB2D69 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathExpression;
+			productName = MathExpression;
+			productReference = A573FFEB3AD9F16E77B6D6E51D280ADE /* MathExpression */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9D6C91CB0D0BAA434685B32A7FCD34BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CD3555C41649838494598493CDE1BE8 /* MathExpression */,
+				09B9FB1C271FC5BE43BEE02169CE397C /* Pods-24Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AE74401CDBEB9EDACD6A71499FB2D69 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MathExpression/MathExpression.modulemap",
+				"${PODS_ROOT}/Headers/Public/MathExpression/MathExpression-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MathExpression-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MathExpression/MathExpression.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MathExpression/MathExpression-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA442282FDED94D79EE36B63ACE8767 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932DFC96BFE4C63226E54BABDC8E5505 /* Pods-24Game-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61689DFD61B40F489A1304C27C34349B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B43EE07BE52C4005287DD2DF75DA816 /* FloatingPoint+Extensions.swift in Sources */,
+				5BDE83ED59DEDBCFE2C3BE69483F3FA4 /* Formatter+Extensions.swift in Sources */,
+				A1FCC2FB4D9B812073ACB6129F3A0189 /* MathBrackets.swift in Sources */,
+				D33F2CF6D6212F6ECBD75EB2DA48602D /* MathExpression.swift in Sources */,
+				D363AE2F4982857D9DF04ABEE8BBA0EF /* MathExpression-dummy.m in Sources */,
+				80D05BF174716E11B8D33DE0373C8C85 /* MathFormula.swift in Sources */,
+				D8AD736F45CFA967A6AF4449E6B3D828 /* MathOperator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A89FD3CCF599176F4E19AF3411C2DB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MathExpression;
+			target = 7CD3555C41649838494598493CDE1BE8 /* MathExpression */;
+			targetProxy = EBE01077D2E73415C8089FF9885C049A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2024BCEE5FDCBD7604F2DFDF34B4C3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7905EFA5BCB6067075F0ED692FFD104E /* MathExpression.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MathExpression/MathExpression-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/MathExpression/MathExpression.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MathExpression;
+				PRODUCT_NAME = MathExpression;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB96228FFDD501B4658E1B0EED1BBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA89E6A48E1E33F7A17174F401EA38AF /* Pods-24Game.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-24Game/Pods-24Game.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79A178FFBE70ACE6FCA0584568F85EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BC0AEA7EB1BD61CC7CDFF9FBE9392D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2208D425A802A5018161EEADA2539BE /* Pods-24Game.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-24Game/Pods-24Game.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F74C0990086FFCA0AB5C38AB22E47FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B59D7D3F5E55156E04AF24A68AC4E38 /* MathExpression.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MathExpression/MathExpression-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/MathExpression/MathExpression.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MathExpression;
+				PRODUCT_NAME = MathExpression;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1B33BD4F14216CBB171450434950A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79A178FFBE70ACE6FCA0584568F85EE /* Debug */,
+				FC1B33BD4F14216CBB171450434950A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51D6A2224C7CCAC20BABE964B1639E3A /* Build configuration list for PBXNativeTarget "Pods-24Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB96228FFDD501B4658E1B0EED1BBED /* Debug */,
+				BC0AEA7EB1BD61CC7CDFF9FBE9392D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A62826CA9EB12ADD456517CA90638A3 /* Build configuration list for PBXNativeTarget "MathExpression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F74C0990086FFCA0AB5C38AB22E47FB2 /* Debug */,
+				2024BCEE5FDCBD7604F2DFDF34B4C3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
